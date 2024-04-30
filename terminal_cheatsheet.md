@@ -24,13 +24,15 @@
 > List of useful comands for **Git** version control.
 
 Remember following:
-- Always run `git` commands from the directory that has been initialized. On Terminal this is marked as **<code style="color : blue">git:(</code><code style="color : red">main</code><code style="color : blue">)</code>**.
+
+- Always run `git` commands from the directory that has been initialized. 
+- On terminal this is marked as **<code style="color : blue">git:(</code><code style="color : red">main</code><code style="color : blue">)</code>**.
 
 |Command|Action|
 |:----    | :----|
-|`git init`|Initializes a git repository on the current working directory|
+|`git init`|Initialize a git repository on the current working directory|
 |`git status`|Check status of files tracking|
-|`git add`|Add files to a staginging area|
+|`git add`|Add files to a staging area|
 |`git commit -m`<code style="color : blue">\"message\"</code>|Commit files from staging area to the git repository|
 |`git log`|Shows a log of all commits <br> To exit press  <code style="color : blue">q</code>|
 |`git revert`<code style="color : blue">\<commit hash\></code>|Revert changes of specified commit, and creates a new commit|
