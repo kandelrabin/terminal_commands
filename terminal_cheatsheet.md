@@ -10,7 +10,7 @@
 |`~`|Home directory (`user_name` folder)|
 |`.`|Current directory|
 |`pwd`|Present working directory|
-|`ls`|List files in the current working directory <br> *Flags*: <br>`-a` List all files including hidden files/folders <br> `-l` Go back to last opened directory|
+|`ls`|List files in the current working directory <br> *Flags*: <br>`-a` List all files including hidden files/folders <br> `-l` List all files including details|
 |`cd <directory>`|Change the current working directory <br> *Additional use cases*:<br>`cd -` Go to last opened directory <br> `cd ..` Go one level up in the directory|
 |`mkdir <directory>` |Make a directory|
 |`rm <directory>`|Remove a directory <br> *Flags*: <br> `-r` Recursively remove the directory including subdirectories <br> `-f` Forced deletion without asking for confirmation|
