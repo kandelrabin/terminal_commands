@@ -39,6 +39,10 @@
 |`git reset --hard`|Reset current branch to a previous commit, discards all local changes to files|
 |`git remote add origin git@github.com:<your_github_name>/<your_repo>.git`|Add a new remote origin to your local Git repository <br> ✅ **SSH** has URL format:`git@github.com:<your_github_name>/<your_repo>.git` <br> ❌ **HTML** has URL format:`https://github.com/<github_username>/<your_repo>.git`|
 |`git branch -M main`| Rename the current branch to `main`|
-|`git push -u origin main`|Push the changes from local `main` branch to the remote repository named|
+|`git push -u origin main`|Push the changes from local `main` branch to the remote repository|
 |`git clone <repo ssh url>`|Clone a repository into a new directory|
 |`git pull`|Fetch changes from a remote repository into the current branch|
+|`git branch`|List all existing branch; current branch is highlighted in green|
+|`git branch <feature_name>`| Create new branch|
+|`git checkout <feature_name>`| Switch to newly created branch|
+|`git branch -d <feature_name>`| Delete the branch|
